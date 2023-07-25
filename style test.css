@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png'); /* Replace 'your-image-file.jpg' with the actual image file name */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; /* Adjust the background size as needed (e.g., 'cover', 'contain', '100% 100%') */
+  }
+  
+  /* Rest of your existing CSS styles */
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .content {
+    margin-left: 50px;
+  }
+  
+  .open-btn, .close-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .close-btn {
+    display: none;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 150px;
+    }
+  }
+  
+  
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .content {
+      display: flex;
+      flex: 1;
+    }
+    
+    .topics {
+      flex: 1;
+      padding: 20px;
+      background-color: #615050;
+    }
+    
+    .messages {
+      flex: 3;
+      padding: 20px;
+    }
+    
+    .message {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+    
+    header {
+      background-color: #4285F4;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .server-info {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .server-images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    
+    .server-images img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    /* The same CSS as before */
+  
+  /* New styles for the Account Management tab */
+  .sidebar li:last-child {
+    margin-top: auto; /* Push the tab to the bottom of the sidebar */
+  }
+  
+  .sidebar li:last-child a {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+  
+  .sidebar li:last-child a:hover {
+    background-color: #3f78dd;
+  }
+q  
+
+/* Le même CSS que précédemment */
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-form {
+    text-align: center;
+  }
+  
+  .contact-form form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .contact-form label, .contact-form input, .contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #3f78dd;
+  }
+  

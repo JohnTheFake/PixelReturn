@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Effet de lumière au curseur avec dégradé</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.33.0/tsparticles.min.js"></script>
+</head>
+<body>
+  <!-- Votre contenu HTML ici -->
+
+  <script src="script.js"></script>
+</body>
+</html>
